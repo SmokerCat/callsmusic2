@@ -18,8 +18,12 @@ The commands📚 I currently support are:
 /stop⏺ - clear the queue and remove the userbot from the call`,
     {
       reply_markup: new InlineKeyboard()
+        .url("Add Me ➕","https://t.me/Aami_song_bot?startgroup=true")
         .url("🔈 Channel", "https://t.me/aamimusicaloffi")
-        .url("Group 💬", "https://t.me/aamimusichat"),
+        .url("Group 💬", "https://t.me/aamimusichat")
+        .url("Creator 👤", "https://t.me/DARK_TELEGRAMER")
+        .url("About Me ❕","https://t.me/aboutaamibot")
+        .url("Suggestions 📃","https://t.me/CatKing_ext"),
     }
   );
 });
